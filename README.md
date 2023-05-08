@@ -1,3 +1,5 @@
+# opre-lapcsere
+
 Fakultatív feladat: lapcsere-algoritmus megvalósítása
 
 Beadható: 2023. május 9. (kedd)
