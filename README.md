@@ -35,7 +35,7 @@ Megvalósítandó algoritmus
 A program írja ki az algoritmus szerinti memóriafoglalásokat és a laphibák számát!
 Pl. a fenti bemenetre adott válasz:
 
-ABC-AB
+ABC-AB\
 5
 
 Értékelés
@@ -55,28 +55,28 @@ Tesztadatok
 
 Az első beküldés előtt érdemes az alábbi tesztekkel megpróbálkozni.
 
-1,2,3,5,4,2
-ABC*A-
-5
+1,2,3,5,4,2\
+ABC*A-\
+5\
 
-1,2,3,2,4,3,2,1
-ABC-A--B
-5
+1,2,3,2,4,3,2,1\
+ABC-A--B\
+5\
 
-1,2,3,3,4,5,2,1
-ABC-ABC*
-7
+1,2,3,3,4,5,2,1\
+ABC-ABC*\
+7\
 
-1,2,3,4,5,4,3,2,1
-ABC*AB-CA
-8
+1,2,3,4,5,4,3,2,1\
+ABC*AB-CA\
+8\
 
--5,2,5,3,2,1,-3
-AB-C-A-
-4
+-5,2,5,3,2,1,-3\
+AB-C-A-\
+4\
 
 A fagyasztott keretek kezelése vitatható. Eljárhatnánk úgy, mintha újabb esélyt kapnának (azaz a FIFO végére kerülnek), de ez nem tükrözné az SC abbéli törekvését, hogy valahol a használati időt veszi figyelembe. Ezért az ilyen kereteket hagyjuk meg a helyükön a FIFO-ban (csak ne használjuk azokat)! Példa:
 
-1,2,3,4,1,5,1,3,6,3
-ABC*-B--CB
-7
+1,2,3,4,1,5,1,3,6,3\
+ABC*-B--CB\
+7\
